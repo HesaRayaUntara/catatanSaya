@@ -1,0 +1,1 @@
+git pull --no-commit --no-ff origin task/logo   -->   untuk menarik perubahan dari branch task/logo dan melakukan merge yang terpisah.
