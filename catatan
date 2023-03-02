@@ -1,1 +1,61 @@
-git pull --no-commit --no-ff origin task/logo   -->   untuk menarik perubahan dari branch task/logo dan melakukan merge yang terpisah.
+-- CARA CLONE REPO GITHUB --
+1. Buka github yang ingin  di clone
+2. Salin link github yang ingin di clonne dengan klik " <>code " lalu salin link
+3. Buka folder yang nantinya akan menjadi tempat menyimpan file/folder clone tersebut
+4. klik kanan lalu klik "Git Bash Here"
+5. ketik  -->  git clone `link yang sudah disalin tadi`. enter
+6. Masuk ke file yang telah di clone dengan ketik -->  cd `nama file`. enter
+7. File akan berubah menjadi repo apabila terdapat branch "master" atau "main"
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8. git remote  -->  agar mengetahui nama remote. Default = origin
+9. git remote -v  -->  v = verbose. digunakan untuk melihat datanya lebih detail lagi, bukan hanya nama remotenya saja
+10. git status  -->  agar mengetahui status dari repositori git yang kita buat
+11. clear  -->  untuk menghapus tampilan program yang telah dijalankan
+12. git log --all --decorate --oneline -- graph  -->  untuk melihat visualisasi dari commitnya
+13. Jika ingin menambahkan file baru di vscode dan ingin commit (tambah komen), maka ketik 'git add .'  lalu  ' git commit -m "pesan" '
+14. git push  -->  untuk mengirim perubahan ke remote (github)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+15. buat branch (cabang) baru dengan ketik  -->  git branch `nama branch baru`
+16. beralih ke branch baru  -->  git checkout `nama branch baru`. git checkout bisa untuk beralih ke branch mana pun
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+17. membuat dan langsung beralih ke branch baru  -->  git checkout -b `nama branch baru`
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+16. Ketik  -->  code .  <--  untuk membuka source code
+17. Edit yang mau diedit
+18. setelah itu, commit dengan ketik  -->  git commit -am "pesan"
+19. pastikan masih di branch baru, lalu push
+20. Selesai
+
+
+
+*********************************************************************************************************************************************************************
+
+
+
+-- CARA MENGATASI (RESOLVE) MERGE CONFLICT --
+
+Kasus : Menggabungkan 2 branch yang mengalami merge conflict
+
+1. git merge `nama branch yang ingin di merge`  -->  untuk menggabungkan 2 branch
+2. Muncul warning CONFLICT
+3. Buka vscode lalu pastikan bagian mana yang ingin dipilih dan ingin dihapus
+4. Hapus mark conflict pada vscode
+5. ketik git status
+6. ketik git commit -am "pesan"
+7. ketik git pull --no-commit --no-ff origin `nama file` --> untuk menarik perubahan dari branch terpilih dan melakukan merge yang terpisah (gabung file 1 -> file 2)
+8. ketik git push untuk mengunggah perubahan ke remote repository
+
+
+
+*********************************************************************************************************************************************************************
+
+
+
+
+
+
+
