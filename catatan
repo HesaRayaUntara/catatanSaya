@@ -55,6 +55,19 @@ Kasus : Menggabungkan 2 branch yang mengalami merge conflict
 
 
 
+-- CARA INSTALASI NEXT.JS --
+1. Buka windows vscode baru yang masih kosong
+2. Buka terminalnya
+3. Masuk ke folder tempat file yang ingin disimpan (cd)
+4. Jika sudah masuk ke direktori, maka ketik  -->  npx create-next-app nama-project --typescript (TS opsional, tp nnti ditanyain lagi sama sistem mau pke TS atau ga)
+5. ketik  -->  code .  <--  untuk masuk ke folder nextjs di windows vscode baru
+6. npm run dev  -->  untuk menjalankan nextjs tersebut
+
+
+
+*********************************************************************************************************************************************************************
+
+
 
 
 
